@@ -1,0 +1,45 @@
+.formcontainer {
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    background-color: #00120B;
+  }
+  
+  .formcontainer input,
+  .formcontainer textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    /* border: 1px solid #ccc; */
+    /* border: none; */
+    /* border-bottom: solid; */
+    /* border: 0 none; */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: aliceblue;
+  }
+  
+  .formcontainer button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6B818C;
+    color: black;
+    /* colocar a cor como branco não daria um contraste melhor? */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .formcontainer button:hover {
+    background-color: #63757e;
+  }
+
+  .formcontainer h3{
+    text-align: center;
+    margin-bottom: 20px;
+  }

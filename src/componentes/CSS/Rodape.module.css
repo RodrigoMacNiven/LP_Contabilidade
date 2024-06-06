@@ -1,0 +1,18 @@
+.container{
+background-color: #00120B;
+color: #FFFFFF;
+padding: 40px 0px 40px 52px;
+}
+
+.container img{
+    color: #95C623;
+}
+
+.redesociais{
+    margin: 10px 0px 10px 0px;
+}
+
+a{
+    margin-right: 5px;
+    color: inherit;
+}

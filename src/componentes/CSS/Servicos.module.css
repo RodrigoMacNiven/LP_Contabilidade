@@ -1,0 +1,116 @@
+.container{
+    width: 100%;
+    background-image: url('../../imagens/fundoservicos.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    background-color:   #35605A;
+    opacity: 100%;
+}
+
+.container h3{
+    padding: 40px 20px 0px 52px;
+    color: #95C623;
+}
+
+
+.divmeio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    margin: 20px 0px 20px 0px;
+}
+
+.divvazia{
+    width: 100px;
+    height: 110px;
+}
+
+.divcabecalho{
+    background-color: #00120B;
+    color: aliceblue;
+    width: 150px;
+    height: 90px;
+    border-radius: 7px;
+}
+
+.divcabecalho h4{
+    color: #95C623;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.divcabecalho p{
+    font-weight: 10;
+    font-size: small;
+    text-align: center;
+}
+
+.divcabecalho h5{
+    font-weight: 1000;
+    text-align: center;
+    font-size: large;
+}
+
+.divcoluna{
+    background-color: #6B818C;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.divlinha{
+    /* background-color: #f0f0f0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1.5px solid #35605A; /* Bordas para visualização das células */
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.divlinhafinal{
+    /* background-color: #f0f0f0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.divlinhaserv{
+    height: 40px;
+    color: white;
+    text-align: right;
+}
+
+.divinferior{
+    /* display: grid;
+    justify-content: center;
+    align-items: start; */
+
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    align-items: start;
+    gap: 15px;
+}
+
+.divinferior p{
+    margin-left: 52px;
+    color: aliceblue;
+    font-weight: bold;
+    justify-self: start;
+}
+
+.divinferior button{
+    background-color: #6B818C;
+    color: #95C623;
+    font-family: Inter;
+    text-align: center;
+    width: 500px;
+    height: 40px;
+    align-items: center;
+    border-style: none;
+}
