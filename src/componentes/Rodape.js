@@ -3,11 +3,12 @@ import { FaInstagram } from "react-icons/fa";
 import { SlSocialFacebook } from 'react-icons/sl';
 import { FiLinkedin , FiYoutube } from "react-icons/fi";
 import styles from './CSS/Rodape.module.css';
+import logo from '../imagens/logo-editor.svg'
 
 function Rodape() {
   return (
     <div class={styles.container}>
-        <img src='' alt='ERRO-LOGO NÂO CARREGADA'></img>
+        <img src={logo} alt='ERRO-LOGO NÂO CARREGADA'></img>
           <div class={styles.redesociais}>
             <a href='https://www.instagram.com/'><FaInstagram /></a>
             <a href='https://pt-br.facebook.com/'><SlSocialFacebook /></a>

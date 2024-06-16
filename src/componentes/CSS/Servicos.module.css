@@ -114,3 +114,30 @@
     align-items: center;
     border-style: none;
 }
+
+@media (max-width: 819px) {
+    .divmeio{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .divcoluna{
+        width: 40%;
+    }
+
+    .container{
+        height: 940px;
+        margin-top: 0;
+    }
+
+    .divinferior button{
+        width: 250px;
+    }
+
+    .divcoluna{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+  }

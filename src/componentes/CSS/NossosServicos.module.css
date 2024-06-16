@@ -19,3 +19,10 @@
     justify-content: center;
     gap: 20px;
 }
+
+@media (max-width: 821px) {
+    .container h3{
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+    }
+  }

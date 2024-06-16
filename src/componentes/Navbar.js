@@ -1,19 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './CSS/Navbar.module.css';
+import logo from '../imagens/logo-editor.svg';
 
 function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-    <div class={styles.container}>
-      <div class={styles.inner}><img src='' alt='ERRO-LOGO NÂO CARREGADA'></img></div>
-      <div class={styles.inner}>
-        <ul class={styles.ul}>
+    <div className={styles.container}>
+      <div className={styles.logoContainer}>
+        <img src={logo} alt='ERRO-LOGO NÃO CARREGADA' />
+      </div>
+      <div className={styles.menuContainer}>
+        <button className={styles.menuToggle} onClick={toggleMenu}>
+          ☰
+        </button>
+        <ul className={`${styles.ul} ${menuOpen ? styles.active : ''}`} id='menu'>
           <li>QUEM SOMOS</li>
           <li>SERVIÇOS</li>
           <li>PLANOS</li>
           <li>CONTATO</li>
         </ul>
       </div>
-  </div>
+    </div>
   );
 }
 
