@@ -9,7 +9,7 @@ function Apresentacao() {
             <Formulario/>
         </div>
         <div class={styles.missao}>
-            <h2>GOSTARIAMOS DE LHE AJUDAR A FAZER <br/> A SUA CONTABILIDADE SEM COMPLICAÇÔES! <br/>NEM TUDO PRECISA SER TRABALHOSO!<br/> VEM COM A GENTE!</h2>
+            <h2>GOSTARIAMOS DE LHE AJUDAR A FAZER A SUA CONTABILIDADE SEM COMPLICAÇÔES! NEM TUDO PRECISA SER TRABALHOSO! VEM COM A GENTE!</h2>
         </div>
     </div>
   );
